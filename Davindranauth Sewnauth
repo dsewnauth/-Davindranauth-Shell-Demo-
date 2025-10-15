@@ -1,0 +1,17 @@
+
+---
+
+#### 2. `hello_demo.sh`
+A basic working shell script.
+
+```bash
+#!/bin/bash
+# Davindranauth Shell Demo
+# Simple script to demonstrate Linux commands
+
+echo "Hello from Davindranauth Shell Demo!"
+mkdir -p demo_folder
+cd demo_folder
+echo "This is a sample text file created by the shell script." > sample.txt
+ls -l
+echo "Script execution complete!"
